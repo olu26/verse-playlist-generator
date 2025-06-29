@@ -122,14 +122,12 @@ const VerseDisplay = ({ moodId }: VerseDisplayProps) => {
   return (
     <Dialog open={isDialogOpen} onOpenChange={setIsDialogOpen}>
       <DialogContent className="sm:max-w-xl">
-        <div className="flex justify-between items-center mb-2">
+        <div className="mb-2">
           <DialogTitle className="text-center">
             {currentMood?.name}
           </DialogTitle>
-          <Button variant="ghost" size="icon" onClick={() => setIsDialogOpen(false)} className="absolute right-4 top-4">
-            <X className="h-4 w-4" />
-          </Button>
         </div>
+        {/* Only one close button in the DialogContent header (handled by Dialog itself or elsewhere) */}
         <DialogDescription className="text-center mb-4">
           {verses.length} verses to help with {currentMood?.description.toLowerCase()}
         </DialogDescription>
