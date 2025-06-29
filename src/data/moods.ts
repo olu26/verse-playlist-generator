@@ -86,5 +86,78 @@ export const moods: Mood[] = [
     name: "Celebration & Joy",
     icon: Cake,
     description: "Marking special occasions"
+  },
+  // --- Added moods for new verses ---
+  {
+    id: "comfort",
+    name: "Comfort & Healing",
+    icon: CloudMoon,
+    description: "Receiving comfort and healing in hard times"
+  },
+  {
+    id: "healing",
+    name: "Healing & Restoration",
+    icon: SunMedium,
+    description: "Seeking healing and restoration"
+  },
+  {
+    id: "courage",
+    name: "Courage & Strength",
+    icon: Star,
+    description: "Finding courage to face challenges"
+  },
+  {
+    id: "wisdom",
+    name: "Wisdom & Insight",
+    icon: BookOpenText,
+    description: "Seeking wisdom and understanding"
+  },
+  {
+    id: "mercy",
+    name: "Mercy & Forgiveness",
+    icon: Heart,
+    description: "Receiving and showing mercy"
+  },
+  {
+    id: "compassion",
+    name: "Compassion & Kindness",
+    icon: Heart,
+    description: "Showing compassion and kindness"
+  },
+  {
+    id: "forgiveness",
+    name: "Forgiveness & Grace",
+    icon: BookHeart,
+    description: "Giving and receiving forgiveness"
+  },
+  {
+    id: "grace",
+    name: "Grace & Favor",
+    icon: SunMedium,
+    description: "Experiencing God's grace"
+  },
+  {
+    id: "reassurance",
+    name: "Reassurance & Hope",
+    icon: CloudMoon,
+    description: "Finding reassurance and hope"
+  },
+  {
+    id: "encouragement",
+    name: "Encouragement & Support",
+    icon: Smile,
+    description: "Receiving encouragement and support"
+  },
+  {
+    id: "community",
+    name: "Community & Fellowship",
+    icon: Cake,
+    description: "Experiencing community and fellowship"
+  },
+  {
+    id: "repentance",
+    name: "Repentance & Renewal",
+    icon: Milestone,
+    description: "Turning back and being renewed"
   }
 ];
