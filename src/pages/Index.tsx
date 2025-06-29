@@ -49,7 +49,7 @@ const Index = () => {
       <footer className="py-6 px-4 border-t">
         <div className="container max-w-5xl">
           <p className="text-sm text-center text-muted-foreground">
-            &copy; {new Date().getFullYear()} BibleVerse | Scripture for every season of life
+            &copy; {new Date().getFullYear()} BibleVerse | Scripture for every season of life | developed by <a href="https://wa.me/qr/ZK5UDDMJ3IUVD1" className="text-black text-xl	">oluchukwu</a>
           </p>
         </div>
       </footer>
